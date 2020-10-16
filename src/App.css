@@ -1,0 +1,32 @@
+/* Default Reset */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html,
+body{
+  background: #000;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+/*###################### Sign Up Form Section ################/
+
+/***************** Navbar Styles **********/
+@import "./components/css/Navbar.css";
+
+/*************************Main Content*********************/
+
+/***************** Form and Container Styles **********/
+@import "./components/css/SignUpForm.css";
+
+/************************* Foot Content *********************/
+@import "./components/css/Footer.css";
+
+
+
+
